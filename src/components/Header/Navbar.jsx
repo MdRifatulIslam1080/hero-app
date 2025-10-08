@@ -36,7 +36,8 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent ">
+        <a className="btn btn-ghost text-xl  font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent ">
+          <img className="w-12 h-12" src="/src/assets/logo.png" alt="" />{" "}
           HERO.IO
         </a>
       </div>
@@ -44,7 +45,9 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <button className="btn text-lg font-semibold text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+          <img src="/src/assets/Vector (16).png" alt="" /> Contribute
+        </button>
       </div>
     </div>
   );
