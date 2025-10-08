@@ -45,7 +45,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <button className="btn text-lg font-semibold text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+        <button className="btn text-lg font-semibold rounded-md text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
           <img src="/src/assets/Vector (16).png" alt="" /> Contribute
         </button>
       </div>

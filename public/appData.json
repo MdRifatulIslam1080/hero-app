@@ -1,0 +1,362 @@
+[
+  {
+    "image": "image_of_a_plant_in_soil",
+    "title": "Forest: Focus for Productivity",
+    "companyName": "Forest Technologies Inc.",
+    "id": 1,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 45,
+    "reviews": 1500000,
+    "ratingAvg": 4.9,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 1250000 }
+    ]
+  },
+  {
+    "image": "image_of_an_alarm_clock_with_checkboxes",
+    "title": "SmPlan:ToDo List with Reminder",
+    "companyName": "Smart Planning Co.",
+    "id": 2,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 38,
+    "reviews": 1800000,
+    "ratingAvg": 4.9,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 28000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 240000 },
+      { "name": "5 star", "count": 1502000 }
+    ]
+  },
+  {
+    "image": "image_of_a_character_with_a_pencil",
+    "title": "FLIP - Focus Timer for Study",
+    "companyName": "FLIP Devs",
+    "id": 3,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 60,
+    "reviews": 300000,
+    "ratingAvg": 4.3,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 62000 },
+      { "name": "5 star", "count": 200000 }
+    ]
+  },
+  {
+    "image": "image_of_a_cute_cat_face",
+    "title": "Pomocat - Cute Pomodoro Timer",
+    "companyName": "PomoApps Studio",
+    "id": 4,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 25,
+    "reviews": 500000,
+    "ratingAvg": 4.0,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 47000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "image": "image_of_multiple_circles_with_clocks_and_play_button",
+    "title": "Time Planner: Schedule & Tasks",
+    "companyName": "Clockwork Solutions",
+    "id": 5,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 40,
+    "reviews": 400000,
+    "ratingAvg": 4.3,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 32000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 260000 }
+    ]
+  },
+  {
+    "image": "image_of_the_number_22",
+    "title": "Flip Clock: World Clock",
+    "companyName": "Digital Time Labs",
+    "id": 6,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 12,
+    "reviews": 900000,
+    "ratingAvg": 4.0,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 240000 },
+      { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "image": "image_of_a_sun_with_a_face",
+    "title": "Morning Habits - Daily Routine",
+    "companyName": "Habit Forge",
+    "id": 7,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 55,
+    "reviews": 300000,
+    "ratingAvg": 4.2,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 24000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 190000 }
+    ]
+  },
+  {
+    "image": "image_of_a_plant_in_soil_with_sunlight",
+    "title": "Focus Plant: Pomodoro Forest",
+    "companyName": "Planty Productivity",
+    "id": 8,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 48,
+    "reviews": 700000,
+    "ratingAvg": 4.4,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 450000 }
+    ]
+  },
+  {
+    "image": "image_of_a_red_and_purple_alarm_clock",
+    "title": "Alarmy - Alarm Clock & Sleep",
+    "companyName": "Delight Room",
+    "id": 9,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 65,
+    "reviews": 300000,
+    "ratingAvg": 4.3,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 77000 },
+      { "name": "5 star", "count": 180000 }
+    ]
+  },
+  {
+    "image": "image_of_a_to_do_list_with_checkmarks",
+    "title": "To-Do List - Schedule Planner",
+    "companyName": "TaskMaster Apps",
+    "id": 10,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 32,
+    "reviews": 700000,
+    "ratingAvg": 4.2,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 65000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 420000 }
+    ]
+  },
+  {
+    "image": "image_of_a_large_check_mark",
+    "title": "To Do List",
+    "companyName": "Simple Checklist Inc.",
+    "id": 11,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 20,
+    "reviews": 500000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 360000 }
+    ]
+  },
+  {
+    "image": "image_of_a_checked_circle_with_a_wave",
+    "title": "WaterDo: To Do List & Schedule",
+    "companyName": "Gamified Flow",
+    "id": 12,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 75,
+    "reviews": 400000,
+    "ratingAvg": 4.5,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 24000 },
+      { "name": "4 star", "count": 95000 },
+      { "name": "5 star", "count": 265000 }
+    ]
+  },
+  {
+    "image": "image_of_a_list_with_checked_circles",
+    "title": "Taskito: To-Do List & Planner",
+    "companyName": "Taskito Team",
+    "id": 13,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 30,
+    "reviews": 500000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 58000 },
+      { "name": "4 star", "count": 155000 },
+      { "name": "5 star", "count": 260000 }
+    ]
+  },
+  {
+    "image": "image_of_a_checklist_and_a_pencil",
+    "title": "To-do list - tasks planner",
+    "companyName": "Planner Devs",
+    "id": 14,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 52,
+    "reviews": 300000,
+    "ratingAvg": 4.3,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 69000 },
+      { "name": "5 star", "count": 190000 }
+    ]
+  },
+  {
+    "image": "image_of_a_stylized_letter_E",
+    "title": "Disciplined - Habit Tracker",
+    "companyName": "Discipline Group",
+    "id": 15,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 42,
+    "reviews": 600000,
+    "ratingAvg": 4.9,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 105000 },
+      { "name": "5 star", "count": 470000 }
+    ]
+  },
+  {
+    "image": "image_of_a_power_button_in_green",
+    "title": "Digital Detox: Focus & Live",
+    "companyName": "Detoxify",
+    "id": 16,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 28,
+    "reviews": 500000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 48000 },
+      { "name": "4 star", "count": 140000 },
+      { "name": "5 star", "count": 285000 }
+    ]
+  },
+  {
+    "image": "image_of_a_sun_with_a_refresh_arrow",
+    "title": "Routine Planner, Habit Tracker",
+    "companyName": "RoutineFlow",
+    "id": 17,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 50,
+    "reviews": 800000,
+    "ratingAvg": 4.8,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "image": "image_of_a_red_and_white_clock_with_text",
+    "title": "Time Timer Visual Productivity",
+    "companyName": "Time Timer LLC",
+    "id": 18,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 68,
+    "reviews": 700000,
+    "ratingAvg": 5.0,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 670000 }
+    ]
+  },
+  {
+    "image": "image_of_a_hand_with_a_clock_in_the_palm",
+    "title": "YourHour - ScreenTime App",
+    "companyName": "Mindful Software",
+    "id": 19,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 35,
+    "reviews": 100000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "image": "image_of_a_stopwatch_on_a_blue_background",
+    "title": "Timelog - Goal & Time Tracker",
+    "companyName": "Logger Labs",
+    "id": 20,
+    "description": "This productivity app focuses on eliminating repetitive manual tasks by introducing intelligent automation. With a simple drag-and-drop interface, users can connect apps, tools, and workflows without any coding knowledge...",
+    "size": 47,
+    "reviews": 200000,
+    "ratingAvg": 4.9,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 165000 }
+    ]
+  }
+]
