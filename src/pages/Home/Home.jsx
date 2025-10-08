@@ -7,7 +7,7 @@ const Home = () => {
   const data = useLoaderData();
   console.log(data);
   return (
-    <div>
+    <div className="bg-[#d2d2d23a]">
       <Banner></Banner>
       <HeroApps data={data}></HeroApps>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="text-center my-15">
+    <div className="text-center py-15">
       <h1 className="text-7xl font-bold ">
         We Build <br />
         <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
