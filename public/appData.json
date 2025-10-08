@@ -1,6 +1,6 @@
 [
   {
-    "image": "image_of_a_plant_in_soil",
+    "image": "/src/assets/demo-app (2).webp",
     "title": "Forest: Focus for Productivity",
     "companyName": "Forest Technologies Inc.",
     "id": 1,
@@ -8,7 +8,7 @@
     "size": 45,
     "reviews": 1500000,
     "ratingAvg": 4.9,
-    "downloads": 7000000,
+    "downloads": 7,
     "ratings": [
       { "name": "1 star", "count": 25000 },
       { "name": "2 star", "count": 10000 },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "image_of_an_alarm_clock_with_checkboxes",
+    "image": "/src/assets/demo-app (2).webp",
     "title": "SmPlan:ToDo List with Reminder",
     "companyName": "Smart Planning Co.",
     "id": 2,
@@ -26,7 +26,7 @@
     "size": 38,
     "reviews": 1800000,
     "ratingAvg": 4.9,
-    "downloads": 8000000,
+    "downloads": 8,
     "ratings": [
       { "name": "1 star", "count": 28000 },
       { "name": "2 star", "count": 12000 },
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "image_of_a_character_with_a_pencil",
+    "image": "/src/assets/demo-app (3).webp",
     "title": "FLIP - Focus Timer for Study",
     "companyName": "FLIP Devs",
     "id": 3,
@@ -44,7 +44,7 @@
     "size": 60,
     "reviews": 300000,
     "ratingAvg": 4.3,
-    "downloads": 3000000,
+    "downloads": 3,
     "ratings": [
       { "name": "1 star", "count": 5000 },
       { "name": "2 star", "count": 8000 },
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "image_of_a_cute_cat_face",
+    "image": "/src/assets/demo-app (1).webp",
     "title": "Pomocat - Cute Pomodoro Timer",
     "companyName": "PomoApps Studio",
     "id": 4,
@@ -62,7 +62,7 @@
     "size": 25,
     "reviews": 500000,
     "ratingAvg": 4.0,
-    "downloads": 5000000,
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 15000 },
       { "name": "2 star", "count": 18000 },
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "image_of_multiple_circles_with_clocks_and_play_button",
+    "image": "/src/assets/demo-app (5).webp",
     "title": "Time Planner: Schedule & Tasks",
     "companyName": "Clockwork Solutions",
     "id": 5,
@@ -80,7 +80,7 @@
     "size": 40,
     "reviews": 400000,
     "ratingAvg": 4.3,
-    "downloads": 4000000,
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 8000 },
       { "name": "2 star", "count": 10000 },
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "image_of_the_number_22",
+    "image": "/src/assets/demo-app (6).webp",
     "title": "Flip Clock: World Clock",
     "companyName": "Digital Time Labs",
     "id": 6,
@@ -98,7 +98,7 @@
     "size": 12,
     "reviews": 900000,
     "ratingAvg": 4.0,
-    "downloads": 9000000,
+    "downloads": 9,
     "ratings": [
       { "name": "1 star", "count": 30000 },
       { "name": "2 star", "count": 40000 },
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "image_of_a_sun_with_a_face",
+    "image": "/src/assets/demo-app (1).webp",
     "title": "Morning Habits - Daily Routine",
     "companyName": "Habit Forge",
     "id": 7,
@@ -116,7 +116,7 @@
     "size": 55,
     "reviews": 300000,
     "ratingAvg": 4.2,
-    "downloads": 3000000,
+    "downloads": 3,
     "ratings": [
       { "name": "1 star", "count": 7000 },
       { "name": "2 star", "count": 9000 },
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "image_of_a_plant_in_soil_with_sunlight",
+    "image": "/src/assets/demo-app (5).webp",
     "title": "Focus Plant: Pomodoro Forest",
     "companyName": "Planty Productivity",
     "id": 8,
@@ -134,7 +134,7 @@
     "size": 48,
     "reviews": 700000,
     "ratingAvg": 4.4,
-    "downloads": 7000000,
+    "downloads": 7,
     "ratings": [
       { "name": "1 star", "count": 10000 },
       { "name": "2 star", "count": 15000 },
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "image_of_a_red_and_purple_alarm_clock",
+    "image": "/src/assets/demo-app (1).webp",
     "title": "Alarmy - Alarm Clock & Sleep",
     "companyName": "Delight Room",
     "id": 9,
@@ -152,7 +152,7 @@
     "size": 65,
     "reviews": 300000,
     "ratingAvg": 4.3,
-    "downloads": 3000000,
+    "downloads": 3,
     "ratings": [
       { "name": "1 star", "count": 6000 },
       { "name": "2 star", "count": 9000 },
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "image_of_a_to_do_list_with_checkmarks",
+    "image": "/src/assets/demo-app (2).webp",
     "title": "To-Do List - Schedule Planner",
     "companyName": "TaskMaster Apps",
     "id": 10,
@@ -170,7 +170,7 @@
     "size": 32,
     "reviews": 700000,
     "ratingAvg": 4.2,
-    "downloads": 7000000,
+    "downloads": 7,
     "ratings": [
       { "name": "1 star", "count": 15000 },
       { "name": "2 star", "count": 20000 },
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "image_of_a_large_check_mark",
+    "image": "/src/assets/demo-app (1).webp",
     "title": "To Do List",
     "companyName": "Simple Checklist Inc.",
     "id": 11,
@@ -188,7 +188,7 @@
     "size": 20,
     "reviews": 500000,
     "ratingAvg": 4.6,
-    "downloads": 5000000,
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 8000 },
       { "name": "2 star", "count": 10000 },
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "image_of_a_checked_circle_with_a_wave",
+    "image": "/src/assets/demo-app (3).webp",
     "title": "WaterDo: To Do List & Schedule",
     "companyName": "Gamified Flow",
     "id": 12,
@@ -206,7 +206,7 @@
     "size": 75,
     "reviews": 400000,
     "ratingAvg": 4.5,
-    "downloads": 4000000,
+    "downloads": 4,
     "ratings": [
       { "name": "1 star", "count": 7000 },
       { "name": "2 star", "count": 9000 },
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "image_of_a_list_with_checked_circles",
+    "image": "/src/assets/demo-app (2).webp",
     "title": "Taskito: To-Do List & Planner",
     "companyName": "Taskito Team",
     "id": 13,
@@ -224,7 +224,7 @@
     "size": 30,
     "reviews": 500000,
     "ratingAvg": 4.1,
-    "downloads": 5000000,
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 12000 },
       { "name": "2 star", "count": 15000 },
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "image_of_a_checklist_and_a_pencil",
+    "image": "/src/assets/demo-app (1).webp",
     "title": "To-do list - tasks planner",
     "companyName": "Planner Devs",
     "id": 14,
@@ -242,7 +242,7 @@
     "size": 52,
     "reviews": 300000,
     "ratingAvg": 4.3,
-    "downloads": 3000000,
+    "downloads": 3,
     "ratings": [
       { "name": "1 star", "count": 5000 },
       { "name": "2 star", "count": 8000 },
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "image_of_a_stylized_letter_E",
+    "image": "/src/assets/demo-app (6).webp",
     "title": "Disciplined - Habit Tracker",
     "companyName": "Discipline Group",
     "id": 15,
@@ -260,7 +260,7 @@
     "size": 42,
     "reviews": 600000,
     "ratingAvg": 4.9,
-    "downloads": 6000000,
+    "downloads": 6,
     "ratings": [
       { "name": "1 star", "count": 8000 },
       { "name": "2 star", "count": 5000 },
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "image_of_a_power_button_in_green",
+    "image": "/src/assets/demo-app (5).webp",
     "title": "Digital Detox: Focus & Live",
     "companyName": "Detoxify",
     "id": 16,
@@ -278,7 +278,7 @@
     "size": 28,
     "reviews": 500000,
     "ratingAvg": 4.2,
-    "downloads": 5000000,
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 12000 },
       { "name": "2 star", "count": 15000 },
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "image_of_a_sun_with_a_refresh_arrow",
+    "image": "/src/assets/demo-app (4).webp",
     "title": "Routine Planner, Habit Tracker",
     "companyName": "RoutineFlow",
     "id": 17,
@@ -296,7 +296,7 @@
     "size": 50,
     "reviews": 800000,
     "ratingAvg": 4.8,
-    "downloads": 8000000,
+    "downloads": 8,
     "ratings": [
       { "name": "1 star", "count": 15000 },
       { "name": "2 star", "count": 10000 },
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "image_of_a_red_and_white_clock_with_text",
+    "image": "/src/assets/demo-app (3).webp",
     "title": "Time Timer Visual Productivity",
     "companyName": "Time Timer LLC",
     "id": 18,
@@ -314,7 +314,7 @@
     "size": 68,
     "reviews": 700000,
     "ratingAvg": 5.0,
-    "downloads": 7000000,
+    "downloads": 7,
     "ratings": [
       { "name": "1 star", "count": 5000 },
       { "name": "2 star", "count": 3000 },
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "image_of_a_hand_with_a_clock_in_the_palm",
+    "image": "/src/assets/demo-app (1).webp",
     "title": "YourHour - ScreenTime App",
     "companyName": "Mindful Software",
     "id": 19,
@@ -332,7 +332,7 @@
     "size": 35,
     "reviews": 100000,
     "ratingAvg": 4.6,
-    "downloads": 1000000,
+    "downloads": 1,
     "ratings": [
       { "name": "1 star", "count": 1000 },
       { "name": "2 star", "count": 2000 },
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "image_of_a_stopwatch_on_a_blue_background",
+    "image": "/src/assets/demo-app (2).webp",
     "title": "Timelog - Goal & Time Tracker",
     "companyName": "Logger Labs",
     "id": 20,
@@ -350,7 +350,7 @@
     "size": 47,
     "reviews": 200000,
     "ratingAvg": 4.9,
-    "downloads": 2000000,
+    "downloads": 2,
     "ratings": [
       { "name": "1 star", "count": 2000 },
       { "name": "2 star", "count": 1000 },

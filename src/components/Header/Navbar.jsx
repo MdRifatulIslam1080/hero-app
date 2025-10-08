@@ -1,10 +1,15 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const links = (
     <>
-      <li>Home</li>
-      <li className="lg:mx-10">Apps</li>
+      <Link to={"/"}>
+        <li>Home</li>
+      </Link>
+      <Link to={"/apps"}>
+        <li className="lg:mx-10">Apps</li>
+      </Link>
       <li>Installation</li>
     </>
   );
