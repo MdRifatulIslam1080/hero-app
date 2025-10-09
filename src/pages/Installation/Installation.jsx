@@ -49,6 +49,8 @@ const Installation = () => {
           </div>
         </div>
       </div>
+      <p className="border-b-2 border-[#0019311e] pb-5 mb-10"></p>
+
       {installation.map((a) => (
         <HeroApp key={a.id} singleApp={a}></HeroApp>
       ))}
