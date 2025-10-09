@@ -1,6 +1,7 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router";
 import { addToInstalledDB } from "../../utility/addToDB";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const data = useLoaderData();
@@ -30,10 +31,6 @@ const AppDetails = () => {
     companyName,
     size,
   } = singleApp;
-
-  const handleMarkAsInstall = (id) => {
-    addToInstalledDB(id);
-  };
 
   return (
     <div className="p-7 py-15 bg-[#d2d2d236]">
@@ -88,7 +85,7 @@ const AppDetails = () => {
           </div>
           <div className="py-3">
             <button
-              onClick={() => handleMarkAsInstall(id)}
+              onClick={() => addToInstalledDB(id, title)}
               className="text-white bg-[#00D390] p-3 rounded-lg text-2xl font-semibold"
             >
               Install Now ({size}MB)

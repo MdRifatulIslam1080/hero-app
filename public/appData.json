@@ -1,6 +1,6 @@
 [
   {
-    "image": "/src/assets/demo-app (2).webp",
+    "image": "./assets/demo-app (2).webp",
     "title": "Forest: Focus for Productivity",
     "companyName": "Forest Technologies Inc.",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "/src/assets/demo-app (2).webp",
+    "image": "./assets/demo-app (2).webp",
     "title": "SmPlan:ToDo List with Reminder",
     "companyName": "Smart Planning Co.",
     "id": 2,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "/src/assets/demo-app (1).webp",
+    "image": "./assets/demo-app (1).webp",
     "title": "YourHour - ScreenTime App",
     "companyName": "Mindful Software",
     "id": 19,
