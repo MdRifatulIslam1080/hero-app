@@ -24,9 +24,31 @@ const Installation = () => {
       <p className="text-center text-[#627382] pt-3">
         Explore All Trending Apps on the Market developed by us
       </p>
-      <h1 className="py-5 font-semibold text-2xl">
-        {installation.length} Apps Found
-      </h1>
+      <div className="py-5 flex justify-between">
+        <div>
+          <h1 className=" font-semibold text-2xl">
+            {installation.length} Apps Found
+          </h1>
+        </div>
+        <div>
+          <div className="dropdown dropdown-hover dropdown-bottom dropdown-center rounded-xl">
+            <div tabIndex={0} role="button" className="btn m-1">
+              Sort By Size
+            </div>
+            <ul
+              tabIndex={0}
+              className="dropdown-content menu bg-base-100 rounded-box z-1 w-52  p-2 shadow-sm"
+            >
+              <li>
+                <a>Low-High</a>
+              </li>
+              <li>
+                <a>High-Low</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       {installation.map((a) => (
         <HeroApp key={a.id} singleApp={a}></HeroApp>
       ))}
