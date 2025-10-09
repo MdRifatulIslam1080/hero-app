@@ -5,12 +5,14 @@ const Navbar = () => {
   const links = (
     <>
       <Link to={"/"}>
-        <li>Home</li>
+        <li className="text-[#627382]">Home</li>
       </Link>
       <Link to={"/apps"}>
-        <li className="lg:mx-10">Apps</li>
+        <li className="lg:mx-10 text-[#627382]">Apps</li>
       </Link>
-      <li>Installation</li>
+      <Link to={"/installation"}>
+        <li className="text-[#627382]">Installation</li>
+      </Link>
     </>
   );
   return (

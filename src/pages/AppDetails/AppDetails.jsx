@@ -1,5 +1,6 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router";
+import { addToInstalledDB } from "../../utility/addToDB";
 
 const AppDetails = () => {
   const data = useLoaderData();
@@ -29,6 +30,11 @@ const AppDetails = () => {
     companyName,
     size,
   } = singleApp;
+
+  const handleMarkAsInstall = (id) => {
+    addToInstalledDB(id);
+  };
+
   return (
     <div className="p-7 py-15 bg-[#d2d2d236]">
       <div className="lg:flex lg:gap-40">
@@ -81,7 +87,10 @@ const AppDetails = () => {
             </div>
           </div>
           <div className="py-3">
-            <button className="text-white bg-[#00D390] p-3 rounded-lg text-2xl font-semibold">
+            <button
+              onClick={() => handleMarkAsInstall(id)}
+              className="text-white bg-[#00D390] p-3 rounded-lg text-2xl font-semibold"
+            >
               Install Now ({size}MB)
             </button>
           </div>
