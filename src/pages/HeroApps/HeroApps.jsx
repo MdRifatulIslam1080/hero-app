@@ -1,8 +1,12 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense } from "react";
 import HeroApp from "../HeroApp/HeroApp";
+import { useNavigate } from "react-router";
 
 const HeroApps = ({ data }) => {
-  const [heroApps, setHeroApps] = useState([]);
+  const router = useNavigate();
+  const handleButton = () => {
+    router("/apps");
+  };
 
   // useEffect(() => {
   //   fetch("appData.json")
@@ -22,9 +26,15 @@ const HeroApps = ({ data }) => {
       </p>
       <Suspense fallback={<span>loading........</span>}>
         <div className="grid grid-cols-2 gap-10 md:grid-cols-3 lg:grid-cols-4 p-4 lg:p-0">
-          {data.map((singleApp) => (
+          {data.slice(0, 8).map((singleApp) => (
             <HeroApp key={singleApp.id} singleApp={singleApp}></HeroApp>
           ))}
+        </div>
+
+        <div className="flex justify-center py-5">
+          <button onClick={handleButton} className="p-3 bg-amber-500">
+            Show All
+          </button>
         </div>
       </Suspense>
     </div>

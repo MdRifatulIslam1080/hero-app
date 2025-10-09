@@ -2,11 +2,14 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 import { getInstalledApp } from "../../utility/addToDB";
 import HeroApp from "../HeroApp/HeroApp";
+import InstallCard from "./InstallCard";
 
 const Installation = () => {
   const [installation, setInstallation] = useState([]);
   const data = useLoaderData();
   console.log(data);
+
+  const handleUninstall = () => {};
 
   useEffect(() => {
     const installedAppData = getInstalledApp();
@@ -52,7 +55,12 @@ const Installation = () => {
       <p className="border-b-2 border-[#0019311e] pb-5 mb-10"></p>
 
       {installation.map((a) => (
-        <HeroApp key={a.id} singleApp={a}></HeroApp>
+        // <HeroApp key={a.id} singleApp={a}></HeroApp>
+        <InstallCard
+          key={a.id}
+          singleApp={a}
+          handleUninstall={handleUninstall}
+        ></InstallCard>
       ))}
     </div>
   );
