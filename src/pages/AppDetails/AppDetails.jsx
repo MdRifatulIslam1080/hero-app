@@ -57,7 +57,7 @@ const AppDetails = () => {
                 </h1>
               </div>
               <div>
-                <img src="/src/assets/icon-downloads.png" alt="" />
+                <img src="./assets/icon-downloads.png" alt="" />
               </div>
             </div>
 
@@ -69,7 +69,7 @@ const AppDetails = () => {
                 </h1>
               </div>
               <div>
-                <img src="/src/assets/icon-ratings.png" alt="" />
+                <img src="./assets/icon-ratings.png" alt="" />
               </div>
             </div>
             <div className="flex gap-2 justify-center items-center ">
@@ -80,7 +80,7 @@ const AppDetails = () => {
                 </h1>
               </div>
               <div>
-                <img src="/src/assets/icon-review.png" alt="" />
+                <img src="./assets/icon-review.png" alt="" />
               </div>
             </div>
           </div>

@@ -32,7 +32,10 @@ const HeroApps = ({ data }) => {
         </div>
 
         <div className="flex justify-center py-5">
-          <button onClick={handleButton} className="p-3 bg-amber-500">
+          <button
+            onClick={handleButton}
+            className="p-3 rounded-lg text-lg font-semibold  text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+          >
             Show All
           </button>
         </div>

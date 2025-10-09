@@ -23,17 +23,13 @@ const InstallCard = ({ singleApp, handleUninstall }) => {
             <span className="flex items-center gap-1">
               <img
                 className="h-4 w-4"
-                src="/src/assets/icon-downloads.png"
+                src="./assets/icon-downloads.png"
                 alt=""
               />
               {downloads}M
             </span>
             <span className="flex items-center gap-1">
-              <img
-                className="h-4 w-4"
-                src="/src/assets/icon-ratings.png"
-                alt=""
-              />
+              <img className="h-4 w-4" src="./assets/icon-ratings.png" alt="" />
               {ratingAvg}
             </span>
             <span className="font-semibold text-xs">{size}MB</span>
@@ -44,7 +40,7 @@ const InstallCard = ({ singleApp, handleUninstall }) => {
       {/* Uninstall Button (Right side) */}
       <button
         onClick={() => handleUninstall(id.toString(), title)}
-        className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300"
+        className="btn text-lg font-semibold rounded-md text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:bg-red-600"
       >
         Uninstall
       </button>

@@ -17,10 +17,10 @@ const Banner = () => {
       </p>
       <div className="gap-5 block md:flex justify-center text-2xl font-semibold">
         <div className="border-1 border-[#D2D2D2] rounded-md p-3 justify-center flex gap-2">
-          <img src="/src/assets/playstore.png" alt="" /> Google Play
+          <img src="./assets/playstore.png" alt="" /> Google Play
         </div>
         <div className="border-1 border-[#D2D2D2] px-5 justify-center rounded-md p-3 flex gap-2">
-          <img src="/src/assets/appstore.png" alt="" /> App Store
+          <img src="./assets/appstore.png" alt="" /> App Store
         </div>
       </div>
       <div className="flex justify-center items-center mt-15">

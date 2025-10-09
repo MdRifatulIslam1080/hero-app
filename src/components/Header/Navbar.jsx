@@ -44,8 +44,7 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="btn btn-ghost text-xl  font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent ">
-          <img className="w-12 h-12" src="/src/assets/logo.png" alt="" />{" "}
-          HERO.IO
+          <img className="w-12 h-12" src="./assets/logo.png" alt="" /> HERO.IO
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -53,7 +52,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <button className="btn text-lg font-semibold rounded-md text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
-          <img src="/src/assets/Vector (16).png" alt="" /> Contribute
+          <img src="./assets/Vector (16).png" alt="" /> Contribute
         </button>
       </div>
     </div>

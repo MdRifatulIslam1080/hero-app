@@ -23,7 +23,7 @@ const HeroApp = ({ singleApp }) => {
               <span>
                 <img
                   className="h-5 w-5"
-                  src="/src/assets/icon-downloads.png"
+                  src="./assets/icon-downloads.png"
                   alt=""
                 />
               </span>
@@ -33,7 +33,7 @@ const HeroApp = ({ singleApp }) => {
               <span>
                 <img
                   className="h-5 w-5"
-                  src="/src/assets/icon-ratings.png"
+                  src="./assets/icon-ratings.png"
                   alt=""
                 />
               </span>
