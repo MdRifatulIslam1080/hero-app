@@ -2,6 +2,7 @@ import React from "react";
 import { useLoaderData, useParams } from "react-router";
 import { addToInstalledDB } from "../../utility/addToDB";
 import { toast } from "react-toastify";
+import Ratings from "../Ratings/Ratings";
 
 const AppDetails = () => {
   const data = useLoaderData();
@@ -24,7 +25,7 @@ const AppDetails = () => {
     image,
     title,
     description,
-
+    ratings,
     reviews,
     ratingAvg,
     downloads,
@@ -95,6 +96,9 @@ const AppDetails = () => {
       </div>
       <p className="border-b-2 py-2 border-[#0019311e]"></p>
       <h1 className="py-5 font-bold text-3xl">Ratings</h1>
+      <div className="w-full h-[354px] ">
+        <Ratings ratingsData={ratings}></Ratings>
+      </div>
       <p className="border-b-2 py-2 border-[#0019311e]"></p>
       <h1 className="py-5 font-bold text-3xl">Description</h1>
       <p>{description}</p>
