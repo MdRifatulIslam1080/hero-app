@@ -2,6 +2,11 @@ import React, { Suspense, useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 import HeroApp from "../HeroApp/HeroApp";
 
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
+const MySwal = withReactContent(Swal);
+
 const Apps = () => {
   const [search, setSearch] = useState("");
 
@@ -74,7 +79,10 @@ const Apps = () => {
         {allApps?.length === 0 && (
           <div className="flex justify-center flex-col items-center py-5">
             <h1 className="text-6xl font-bold py-6">No Apps Found</h1>
-            <button onClick={handleButton} className="p-3 bg-amber-500">
+            <button
+              onClick={handleButton}
+              className="p-3 text-lg font-semibold rounded-md text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+            >
               Show All
             </button>
           </div>
