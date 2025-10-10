@@ -65,13 +65,13 @@ const Installation = () => {
           </h1>
         </div>
         <div>
-          <div className="dropdown dropdown-hover dropdown-bottom dropdown-center rounded-xl">
+          <div className="dropdown dropdown-hover dropdown-bottom  dropdown-center  rounded-xl">
             <div tabIndex={0} role="button" className="btn m-1">
               Sort By Size: {sort ? sort : ""}
             </div>
             <ul
               tabIndex={0}
-              className="dropdown-content menu bg-base-100 rounded-box z-1 w-52  p-2 shadow-sm"
+              className="dropdown-content mr-10 menu bg-base-100 rounded-box z-1 w-52  p-2 shadow-sm"
             >
               <li>
                 <a onClick={() => handleSort("Low-High")}>Low-High</a>
@@ -106,5 +106,3 @@ const Installation = () => {
 };
 
 export default Installation;
-
-// khgjgkjjlkjl.m

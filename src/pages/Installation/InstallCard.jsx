@@ -5,7 +5,7 @@ const InstallCard = ({ singleApp, handleUninstall }) => {
   const { title, image, downloads, ratingAvg, id, size } = singleApp;
 
   return (
-    <div className="flex justify-between items-center bg-white p-4 rounded-lg shadow-md mb-4 border border-[#0019311e]">
+    <div className="flex justify-between items-center bg-white p-4  rounded-lg shadow-md mb-4 border border-[#0019311e]">
       <Link
         to={`/appDetails/${id}`}
         className="flex items-center gap-4 flex-grow cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition-colors"
@@ -46,5 +46,3 @@ const InstallCard = ({ singleApp, handleUninstall }) => {
 };
 
 export default InstallCard;
-
-// gjnnlkhhgnk

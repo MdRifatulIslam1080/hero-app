@@ -44,6 +44,3 @@ const removeAppFromInstalledDB = (id, title) => {
 };
 
 export { addToInstalledDB, getInstalledApp, removeAppFromInstalledDB };
-
-// hjlkhl;jlkjh
-// jhl
