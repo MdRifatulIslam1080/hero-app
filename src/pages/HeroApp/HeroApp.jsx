@@ -7,7 +7,7 @@ const HeroApp = ({ singleApp }) => {
   const { title, image, companyName, downloads, ratingAvg, id } = singleApp;
   return (
     <Link to={`/appDetails/${id}`}>
-      <div className="card p-4 lg:p-3 md:gap-4 lg:gap-0 mb-4  w-46 lg:w-19/20 h-full md:w-56 shadow-lg cursor-pointer bg-white hover:bg-base-200 hover:-translate-y-2 transition-all duration-200  ">
+      <div className="card p-4 lg:p-3 md:gap-4 lg:gap-0 mb-4  w-full h-full shadow-lg cursor-pointer bg-white hover:bg-base-200 hover:-translate-y-2 transition-all duration-200  ">
         <figure className="">
           <img
             className="rounded-lg  w-full h-full object-cover "

@@ -9,7 +9,7 @@ const HeroApps = ({ data }) => {
   };
 
   return (
-    <div className="lg:p-8 ">
+    <div className="lg:p-8 lg:px-12">
       <h1 className="font-bold text-5xl text-center">Trending Apps</h1>
       <p className="text-center py-5 text-[#627382]">
         Explore All Trending Apps on the Market developed by us

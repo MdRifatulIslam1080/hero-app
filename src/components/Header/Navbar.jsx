@@ -1,22 +1,39 @@
 import React from "react";
+import { NavLink } from "react-router";
 import { Link } from "react-router";
 
 const Navbar = () => {
-  const links = (
+  const linkBaseStyle =
+    "px-4 py-2 text-lg font-semibold transition-colors duration-200";
+
+  const getNavLinkClass = ({ isActive }) =>
+    `${linkBaseStyle} ${
+      isActive
+        ? "text-[#632EE3] border-b-2 border-[#632EE3]"
+        : "text-gray-600 hover:text-[#632EE3]"
+    }`;
+
+  const navLinksList = (
     <>
-      <Link to={"/"}>
-        <li className="text-[#627382]">Home</li>
-      </Link>
-      <Link to={"/apps"}>
-        <li className="lg:mx-10 text-[#627382]">Apps</li>
-      </Link>
-      <Link to={"/installation"}>
-        <li className="text-[#627382]">Installation</li>
-      </Link>
+      <li>
+        <NavLink to="/" className={getNavLinkClass}>
+          Home
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/apps" className={getNavLinkClass}>
+          Apps
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/installation" className={getNavLinkClass}>
+          Installation
+        </NavLink>
+      </li>
     </>
   );
   return (
-    <div className="navbar bg-base-100 shadow-sm ">
+    <div className="navbar bg-base-100 shadow-sm md:px-12">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -40,9 +57,10 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            {links}
+            {navLinksList}
           </ul>
         </div>
+
         <a
           href="/"
           className="btn btn-ghost text-xl  font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent "
@@ -51,7 +69,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
+        <ul className="menu menu-horizontal px-1">{navLinksList}</ul>
       </div>
       <div className="navbar-end">
         <a

@@ -16,25 +16,31 @@ const Banner = () => {
         ideas into digital experiences that truly make an impact.
       </p>
       <div className="gap-5 px-25 md:px-0 block md:flex justify-center  text-2xl font-semibold">
-        <div className="border-1 mb-5 md:mb-0 border-[#D2D2D2]  rounded-md p-3  justify-center flex gap-2">
+        <a
+          href="https://play.google.com/store/games"
+          className="border-1 mb-5 md:mb-0 border-[#D2D2D2]  rounded-md p-3  justify-center flex gap-2"
+        >
           <img src="/assets/playstore.png" alt="" /> Google Play
-        </div>
-        <div className="border-1 border-[#D2D2D2] px-5 justify-center rounded-md p-3 flex gap-2">
+        </a>
+        <a
+          href="https://www.apple.com/app-store/"
+          className="border-1 border-[#D2D2D2] px-5 justify-center rounded-md p-3 flex gap-2"
+        >
           <img src="/assets/appstore.png" alt="" /> App Store
-        </div>
+        </a>
       </div>
       <div className="flex justify-center items-center mt-15">
         <img src="/assets/hero.png" alt="" />
       </div>
-      <div className="py-10 text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+      <div className="py-10 text-white bg-gradient-to-r w-full from-[#632EE3] to-[#9F62F2]">
         <h3 className="text-md:4xl text-3xl font-semibold pb-4">
           Trusted by Millions, Built for You
         </h3>
-        <div className="md:flex pt-5 justify-center  md:gap-15">
+        <div className="md:flex pt-5 justify-center  md:gap-6">
           <div className="flex justify-center items-center gap-5">
             <div className="">
               <p>Total Downloads</p>
-              <h1 className="font-bold text-6xl py-2">29.6M</h1>
+              <h1 className="font-bold lg:text-6xl  text-5xl py-2">29.6M</h1>
               <p>21% more than last month</p>
             </div>
             <div>
@@ -45,10 +51,10 @@ const Banner = () => {
               />
             </div>
           </div>
-          <div className="flex justify-center items-center gap-5 ">
+          <div className="flex justify-center items-center gap-5  ">
             <div className="my-7 md:my-0">
               <p>Total Reviews</p>
-              <h1 className="font-bold text-6xl py-2  ">906K</h1>
+              <h1 className="font-bold lg:text-6xl  text-5xl py-2  ">906K</h1>
               <p>46% more than last month</p>
             </div>
             <div>
@@ -63,7 +69,7 @@ const Banner = () => {
             <div>
               {" "}
               <p>Active Apps</p>
-              <h1 className="font-bold text-6xl py-2">132+</h1>
+              <h1 className="font-bold lg:text-6xl  text-5xl py-2">132+</h1>
               <p>31 more will Launch</p>
             </div>
             <div>

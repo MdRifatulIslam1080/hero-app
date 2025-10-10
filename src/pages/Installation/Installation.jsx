@@ -1,17 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 import {
   getInstalledApp,
   removeAppFromInstalledDB,
 } from "../../utility/addToDB";
-import HeroApp from "../HeroApp/HeroApp";
 import InstallCard from "./InstallCard";
-
-import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
-import { toast } from "react-toastify";
-
-const MySwal = withReactContent(Swal);
 
 const Installation = () => {
   const [installation, setInstallation] = useState([]);
@@ -40,18 +33,22 @@ const Installation = () => {
     setSort(type);
 
     if (type === "Low-High") {
-      const sortedBySize = [...installation].sort((a, b) => a.size - b.size);
-      setInstallation(sortedBySize);
+      const sortedByDownloads = [...installation].sort(
+        (a, b) => a.downloads - b.downloads
+      );
+      setInstallation(sortedByDownloads);
     }
 
     if (type === "High-Low") {
-      const sortedBySize = [...installation].sort((a, b) => b.size - a.size);
-      setInstallation(sortedBySize);
+      const sortedByDownloads = [...installation].sort(
+        (a, b) => b.downloads - a.downloads
+      );
+      setInstallation(sortedByDownloads);
     }
   };
 
   return (
-    <div className="bg-[#d2d2d236] p-6">
+    <div className="p-6 min-h-screen">
       <h1 className="text-center font-bold text-5xl pt-8">
         Your Installed Apps
       </h1>
@@ -67,7 +64,7 @@ const Installation = () => {
         <div>
           <div className="dropdown dropdown-hover dropdown-bottom  dropdown-center  rounded-xl">
             <div tabIndex={0} role="button" className="btn m-1">
-              Sort By Size: {sort ? sort : ""}
+              Sort By Downloads: {sort ? sort : ""}
             </div>
             <ul
               tabIndex={0}
@@ -86,7 +83,6 @@ const Installation = () => {
       <p className="border-b-2 border-[#0019311e] pb-5 mb-10"></p>
 
       {installation.map((a) => (
-        // <HeroApp key={a.id} singleApp={a}></HeroApp>
         <InstallCard
           key={a.id}
           singleApp={a}

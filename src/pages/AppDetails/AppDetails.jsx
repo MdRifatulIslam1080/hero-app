@@ -46,7 +46,7 @@ const AppDetails = () => {
     }
   };
   return (
-    <div className="p-7 py-15 bg-[#d2d2d236]">
+    <div className="p-7 py-15 ">
       <div className="lg:flex lg:gap-40">
         <div>
           <img className="rounded-lg shadow-xl" src={image} alt="" />
@@ -114,7 +114,7 @@ const AppDetails = () => {
       <p className="border-b-2 py-2 border-[#0019311e]"></p>
       <h1 className="py-5 font-bold text-3xl">Ratings</h1>
       <div className="w-full h-[354px] ">
-        <Ratings ratingsData={ratings}></Ratings>
+        <Ratings ratingsData={ratings || []}></Ratings>
       </div>
       <p className="border-b-2 py-2 border-[#0019311e]"></p>
       <h1 className="py-5 font-bold text-3xl">Description</h1>

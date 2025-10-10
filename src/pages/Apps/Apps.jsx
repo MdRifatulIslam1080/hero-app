@@ -2,14 +2,8 @@ import React, { Suspense, useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 import HeroApp from "../HeroApp/HeroApp";
 
-import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
-
-const MySwal = withReactContent(Swal);
-
 const Apps = () => {
   const [search, setSearch] = useState("");
-
   const data = useLoaderData();
   const [allApps, setAllApps] = useState([]);
   useEffect(() => {
@@ -28,7 +22,7 @@ const Apps = () => {
   };
 
   return (
-    <div className="bg-[#d2d2d236] p-6">
+    <div className="p-6 lg:px-12">
       <h1 className="text-center font-bold text-5xl pt-8">
         Our All Applications
       </h1>
@@ -68,26 +62,30 @@ const Apps = () => {
           </label>
         </div>
       </div>
-
-      <Suspense fallback={<span>loading........</span>}>
-        <div className="grid grid-cols-2 gap-10 md:grid-cols-3 lg:grid-cols-4 p-4 lg:p-0">
-          {allApps?.map((singleApp) => (
-            <HeroApp key={singleApp.id} singleApp={singleApp}></HeroApp>
-          ))}
-        </div>
-
-        {allApps?.length === 0 && (
-          <div className="flex justify-center flex-col items-center py-5">
-            <h1 className="text-6xl font-bold py-6">No Apps Found</h1>
-            <button
-              onClick={handleButton}
-              className="p-3 text-lg font-semibold rounded-md text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
-            >
-              Show All
-            </button>
+      <div className="grid grid-cols-2 gap-4 lg:gap-10 md:grid-cols-3 lg:grid-cols-4 p-4 lg:p-0">
+        {allApps?.map((singleApp) => (
+          <HeroApp key={singleApp.id} singleApp={singleApp}></HeroApp>
+        ))}
+      </div>
+      {allApps?.length === 0 && (
+        <div className="flex justify-center flex-col items-center py-5">
+          <div className="flex flex-col justify-center items-center">
+            <img src="/assets/OBJECTS.png" alt="" />
+            <h1 className="font-semibold text-5xl">OPPS!! APP NOT FOUND</h1>
+            <p className="mt-5">
+              The App you are requesting is not found on our system. please try
+              another apps
+            </p>
           </div>
-        )}
-      </Suspense>
+
+          <button
+            onClick={handleButton}
+            className="p-3 mt-10 text-lg font-semibold rounded-md text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+          >
+            Show All
+          </button>
+        </div>
+      )}
     </div>
   );
 };

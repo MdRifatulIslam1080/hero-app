@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
+    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 ">
       <div className="flex">
-        <img className="w-10 h-10" src="/public/assets/logo.png" alt="" />
+        <img className="w-10 h-10" src="/assets/logo.png" alt="" />
         <h1 className="text-2xl font-semibold">Hero Apps</h1>
       </div>
       <nav>

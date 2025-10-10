@@ -19,7 +19,7 @@ const Ratings = ({ ratingsData }) => {
         layout="vertical"
         width={500}
         height={400}
-        data={ratingsData.sort((a, b) => b.count - a.count)}
+        data={[...ratingsData].sort((a, b) => b.count - a.count)}
         margin={{
           top: 20,
           right: 20,
