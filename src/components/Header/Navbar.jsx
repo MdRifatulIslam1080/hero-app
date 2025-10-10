@@ -47,7 +47,7 @@ const Navbar = () => {
           href="/"
           className="btn btn-ghost text-xl  font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent "
         >
-          <img className="w-12 h-12" src="./assets/logo.png" alt="" /> HERO.IO
+          <img className="w-12 h-12" src="/assets/logo.png" alt="" /> HERO.IO
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -58,7 +58,7 @@ const Navbar = () => {
           href="https://github.com/MdRifatulIslam1080"
           className="btn text-lg font-semibold rounded-md text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
         >
-          <img src="./assets/Vector (16).png" alt="" />
+          <img src="/assets/Vector (16).png" alt="" />
           Contribute
         </a>
       </div>

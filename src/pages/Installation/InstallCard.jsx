@@ -1,5 +1,3 @@
-// src/pages/Installation/InstallCard.jsx
-
 import React from "react";
 import { Link } from "react-router";
 
@@ -23,13 +21,13 @@ const InstallCard = ({ singleApp, handleUninstall }) => {
             <span className="flex items-center gap-1">
               <img
                 className="h-4 w-4"
-                src="./assets/icon-downloads.png"
+                src="/assets/icon-downloads.png"
                 alt=""
               />
               {downloads}M
             </span>
             <span className="flex items-center gap-1">
-              <img className="h-4 w-4" src="./assets/icon-ratings.png" alt="" />
+              <img className="h-4 w-4" src="/assets/icon-ratings.png" alt="" />
               {ratingAvg}
             </span>
             <span className="font-semibold text-xs">{size}MB</span>
@@ -37,10 +35,9 @@ const InstallCard = ({ singleApp, handleUninstall }) => {
         </div>
       </Link>
 
-      {/* Uninstall Button (Right side) */}
       <button
         onClick={() => handleUninstall(id.toString(), title)}
-        className="btn text-lg font-semibold rounded-md text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:bg-red-600"
+        className="btn text-lg font-semibold rounded-md text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:bg-red-600  transition-colors"
       >
         Uninstall
       </button>
@@ -49,3 +46,5 @@ const InstallCard = ({ singleApp, handleUninstall }) => {
 };
 
 export default InstallCard;
+
+// gjnnlkhhgnk

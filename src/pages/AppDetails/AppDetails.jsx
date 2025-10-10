@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData, useParams } from "react-router";
-import { addToInstalledDB } from "../../utility/addToDB";
-import { toast } from "react-toastify";
+import { addToInstalledDB, getInstalledApp } from "../../utility/addToDB";
+
 import Ratings from "../Ratings/Ratings";
 
 const AppDetails = () => {
   const data = useLoaderData();
   const { id } = useParams();
   const appId = parseInt(id);
+
+  const [isInstalled, setIsInstalled] = useState(() => {
+    const installedApps = getInstalledApp();
+    return installedApps.includes(id);
+  });
 
   const singleApp = Array.isArray(data)
     ? data.find((app) => app.id === appId)
@@ -33,6 +38,13 @@ const AppDetails = () => {
     size,
   } = singleApp;
 
+  const handleInstallClick = () => {
+    const wasNewInstall = addToInstalledDB(id, title);
+
+    if (wasNewInstall) {
+      setIsInstalled(true);
+    }
+  };
   return (
     <div className="p-7 py-15 bg-[#d2d2d236]">
       <div className="lg:flex lg:gap-40">
@@ -57,7 +69,7 @@ const AppDetails = () => {
                 </h1>
               </div>
               <div>
-                <img src="./assets/icon-downloads.png" alt="" />
+                <img src="/assets/icon-downloads.png" alt="" />
               </div>
             </div>
 
@@ -69,7 +81,7 @@ const AppDetails = () => {
                 </h1>
               </div>
               <div>
-                <img src="./assets/icon-ratings.png" alt="" />
+                <img src="/assets/icon-ratings.png" alt="" />
               </div>
             </div>
             <div className="flex gap-2 justify-center items-center ">
@@ -80,16 +92,21 @@ const AppDetails = () => {
                 </h1>
               </div>
               <div>
-                <img src="./assets/icon-review.png" alt="" />
+                <img src="/assets/icon-review.png" alt="" />
               </div>
             </div>
           </div>
           <div className="py-3">
             <button
-              onClick={() => addToInstalledDB(id, title)}
-              className="text-white bg-[#00D390] p-3 rounded-lg text-2xl font-semibold"
+              onClick={handleInstallClick}
+              disabled={isInstalled}
+              className={`text-white p-3 rounded-lg text-2xl font-semibold transition-all duration-200 ${
+                isInstalled
+                  ? "bg-gray-400 cursor-not-allowed"
+                  : "bg-[#00D390] hover:bg-[#00b07a]"
+              }`}
             >
-              Install Now ({size}MB)
+              {isInstalled ? "Installed" : `Install Now (${size}MB)`}
             </button>
           </div>
         </div>
@@ -107,3 +124,5 @@ const AppDetails = () => {
 };
 
 export default AppDetails;
+
+// fghggkjhkj
