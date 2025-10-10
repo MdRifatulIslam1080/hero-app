@@ -6,6 +6,7 @@ import InstallCard from "./InstallCard";
 
 const Installation = () => {
   const [installation, setInstallation] = useState([]);
+  const [sort, setSort] = useState("");
   const data = useLoaderData();
   console.log(data);
 
@@ -19,6 +20,21 @@ const Installation = () => {
     );
     setInstallation(myInstallation);
   }, []);
+
+  const handleSort = (type) => {
+    setSort(type);
+
+    if (type === "Low-High") {
+      const sortedBySize = [...installation].sort((a, b) => a.size - b.size);
+      setInstallation(sortedBySize);
+    }
+
+    if (type === "High-Low") {
+      const sortedBySize = [...installation].sort((a, b) => b.size - a.size);
+      setInstallation(sortedBySize);
+    }
+  };
+
   return (
     <div className="bg-[#d2d2d236] p-6">
       <h1 className="text-center font-bold text-5xl pt-8">
@@ -36,17 +52,17 @@ const Installation = () => {
         <div>
           <div className="dropdown dropdown-hover dropdown-bottom dropdown-center rounded-xl">
             <div tabIndex={0} role="button" className="btn m-1">
-              Sort By Size
+              Sort By Size: {sort ? sort : ""}
             </div>
             <ul
               tabIndex={0}
               className="dropdown-content menu bg-base-100 rounded-box z-1 w-52  p-2 shadow-sm"
             >
               <li>
-                <a>Low-High</a>
+                <a onClick={() => handleSort("Low-High")}>Low-High</a>
               </li>
               <li>
-                <a>High-Low</a>
+                <a onClick={() => handleSort("High-Low")}>High-Low</a>
               </li>
             </ul>
           </div>

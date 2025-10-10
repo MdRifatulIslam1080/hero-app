@@ -49,3 +49,4 @@ const HeroApp = ({ singleApp }) => {
 };
 
 export default HeroApp;
+
